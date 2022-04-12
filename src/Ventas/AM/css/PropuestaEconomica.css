@@ -1,0 +1,25 @@
+.encabezado{
+    background-color: rgb(190, 149, 228);
+}
+.total{
+    background-color: rgb(75, 201, 3);
+}
+.green{
+
+    background-color: rgb(75, 201, 3);
+
+}
+
+.azul{
+    background-color: rgb(3, 171, 201);
+}
+.total-moneda{
+    background-color: aquamarine;
+}
+.total-mxn-usd{
+    background-color: rgb(182, 126, 126);
+}
+
+#lista-cotizaciones{
+    background-color: brown;
+}

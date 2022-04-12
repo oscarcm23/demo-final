@@ -1,0 +1,232 @@
+
+.log{
+    width: 10%;
+    justify-content: center;
+    text-align: center;
+    margin-left: 6z0px;
+    margin-top: 15px;
+}
+
+.header-a h3{
+  
+text-align: center;
+justify-content: center;
+
+}
+div.header{
+ 
+    width: 100%;
+    height: 80px;
+    background-color: rgb(255, 255, 255);
+
+}
+
+.lines{
+  position: absolute;
+  width:calc(100% - 60px);
+  background-color: #6786b8;
+  height: 15px;
+  margin-left: 60px;
+}
+
+.lines2{
+
+  width: calc( 25% );
+  background-color: #000b8c;
+  height: 15px;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+
+.lines3{
+
+  width:calc(70% - 60px);
+  background-color: #6786b8;
+  height: 4px;
+
+
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.lines4{
+
+  width: calc( 30%  - 60px );
+  background-color: #000b8c;
+  height: 4px;
+  margin-left: auto ;
+  margin-right: auto;
+ 
+}
+
+
+
+
+.contenido-main{
+    position: absolute;
+    display: flex;
+    top: 10%;
+    margin-left: calc(33%);
+    margin-left: calc(50%  - 250px);
+  
+  
+  
+    }
+
+
+
+
+
+/*Tablet*/
+    @media screen and (max-width: 1024px) {
+
+	
+        .log{
+            width: 30%;
+            justify-content: center;
+            text-align: center ;
+            margin-left: 60px;
+        
+        }
+              
+            
+          
+          }
+        
+     
+          @media (min-width: 600px) and (max-width: 1024px) {  
+
+
+            .log{
+                width: 15%;
+                justify-content: center;
+                text-align: center ;
+                margin-left: 60px;
+            
+            }
+          }
+    
+
+
+
+@media screen and (max-width: 960px) {
+
+	
+.log{
+    width: 35%;
+    justify-content: center;
+    text-align: center;
+    margin-left: 60px;
+
+}
+  
+  }
+
+  
+@media screen and (max-width: 480px) {
+
+	
+    .log{
+        width: 40%;
+        justify-content: center;
+        text-align: center;
+        margin-left: 60px;
+    
+    }
+      
+      }
+    
+
+      @media screen and (max-width: 360px) {
+
+	
+        .log{
+            width: 35%;
+            justify-content: center;
+            text-align: center;
+            margin-left: 60px;
+        
+        }
+          
+          }
+        
+          @media screen and (max-width: 280px) {
+
+	
+            .log{
+                width: 50%;
+                justify-content: center;
+                text-align: center;
+                margin-left: 60px;
+            
+            }
+              
+              }
+            
+        
+      
+    
+
+
+
+
+              
+/*=========================MEDIA QUERIES PANTALLA ANCHA================================*/
+
+@media (max-width: 1200px) {
+    
+    .log{
+        width: 15%;
+        justify-content: center;
+        text-align: center;
+        margin-left: 60px;
+    }
+
+  }
+  
+  /*=========================MEDIA QUERIES PANTALLA SM================================*/
+  
+  @media (max-width: 960px) {
+ 
+
+    .log{
+        width: 15%;
+        justify-content: center;
+        text-align: center;
+        margin-left: 60px;
+    }
+  }
+  
+  /*=========================MEDIA QUERIES PANTALLA EXTRA-SM================================*/
+  
+  @media (max-width: 768px) {
+ 
+    
+.log{
+    width: 20%;
+    justify-content: center;
+    text-align: center;
+    margin-left: 60px;
+}
+ /*=========================MEDIA QUERIES PANTALLA EXTRA-SM================================*/
+  }
+  @media (max-width: 576px) {
+    .log{
+        width: 25%;
+        justify-content: center;
+        text-align: center;
+        margin-left: 60px;
+    }
+  }
+  @media (max-width: 375px) {
+    .log{
+        width: 35%;
+        justify-content: center;
+        text-align: center;
+        margin-left: 60px;
+    }
+  }
+  

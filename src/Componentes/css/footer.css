@@ -1,0 +1,43 @@
+/*============== FOOTER ============== */
+
+.footer {
+    position: absolute;
+    background: #38153e;
+    color: rgb(255, 255, 255);
+    padding: 0% 2%;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 12vh;
+    position: fixed;
+    bottom: 0;
+  }
+
+  /*============== REDES SOCIALES============== */
+  .redes-sociales h4 {
+    text-align: center;
+  }
+  
+  .bi-telephone-fill,
+  .bi-geo-alt-fill,
+  .bi-envelope-fill,
+  .bi-linkedin {
+    margin: 10px;
+    color: rgb(255, 255, 255);
+  }
+  
+  .bi-telephone-fill:hover,
+  .bi-geo-alt-fill:hover,
+  .bi-envelope-fill:hover,
+  .bi-linkedin:hover {
+    color: #054e83;
+  }
+  
+  .box1 h3 {
+    position: relative;
+    text-align: center;
+    font-size: 15px;
+  }
+  

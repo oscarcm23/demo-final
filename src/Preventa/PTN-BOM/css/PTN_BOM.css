@@ -1,0 +1,129 @@
+.partida{
+  background-color: #fff;
+  width: 100%;
+}
+
+
+.agregar::placeholder  { color: rgba(0, 0, 0, 0.363); 
+
+    background-color: #fff;
+    }
+    
+    
+    /* .agregar::placeholder { color: rgba(0, 0, 0, 0.363); font-weight: bold; }
+     */
+    
+        .boton-ptn{
+        
+          display: flex;
+          justify-content: left;
+          width: 100%;
+           left: 0;
+           padding: 1%;
+      }
+    
+      .table-responsive h2{
+        text-align: center;
+      }
+      .boton-ptn-agregar{
+        
+        display: flex;
+        justify-content: right;
+        width: 100%;
+         left: 0;
+         padding: 1% ;
+    }
+    
+    .boton-ptn-finalizar{
+        
+      display: flex;
+      justify-content: center;
+      width: 100%;
+       left: 0;
+       padding: 1% ;
+    }
+    
+    .opciones-proyecto{
+      padding: 1%;
+    }
+    
+    
+    select#moneda{
+      color: #fff;
+      font-size: 20px;
+      font-weight: bold;
+      text-align: center; 
+       background: #6787B7;
+    
+    }
+    
+    
+    select#lista-opciones{
+      color: #fff;
+      font-size: 20px;
+      font-weight: bold;
+      text-align: center;
+    
+      background: #6787B7;
+    
+    }
+    select#lista-proyectos{
+      color: #fff;
+      font-size: 20px;
+      font-weight: bold;
+      text-align: center;
+    
+      background: #6786b8;
+    }
+    
+    .titulo-BOM{
+      background-color: black;
+      color: #fff;
+    }
+    
+    .partida button{
+      width: 100%;
+     top: 0;
+    
+    }
+    .partida input{
+      width: 100%;
+      text-align: center;
+      
+    }
+    
+  
+    .btn.btn-success{
+      width: 100%;
+
+    }
+
+    .btn.btn-primary.continuar{
+      background-color: #8c6583;
+
+    }
+
+    .btn.btn-primary{
+      width: 100%;
+      background-color: #198754;
+      border-color: #198754;
+
+    }
+
+    .btn.btn-primary.modificar{
+      background-color: rgb(75, 109, 224);
+  }
+  .btn.btn-primary.modificar.usuarios{
+  
+      background-color: rgb(224 77 16);
+  }
+  .btn.btn-primary.modificar.usuarios:hover{
+      background-color: rgb(255, 164, 45);
+  }
+ 
+  .selectCliente{
+    cursor: pointer
+  }
+  .selectCliente:hover{
+    background-color: #e0e0e0;
+  }

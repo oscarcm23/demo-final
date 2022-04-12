@@ -1,0 +1,105 @@
+
+.contenido-usuarios{
+ 
+    position: relative;
+    margin-left: 60px;
+    width: calc(100%  - 60px); 
+    background-color: #ffffff;
+    padding: 2%;
+    
+}
+
+
+.arregla{
+ position: absolute;
+ height: 100%;
+left: -60px;
+width: calc(100% + 60px);
+
+}
+
+
+.data-PTN{
+
+    position: absolute;
+    height: 100%;
+   left: -60px;
+   width: calc(100% + 60px);
+   margin-top: 2%;
+
+}
+
+.boton{
+    width: calc(100% + 60px);
+    position: absolute;  
+    left: -60px;
+    padding: 1%;
+}
+
+.partidax{
+    background-color: rgba(57, 117, 185, 0.61);
+  
+}
+
+.titulo-tabla-usuarios{
+background-color:#3c1053;
+color: rgb(255, 255, 255);
+
+
+}
+
+.table-responsive h2{
+  
+    color: rgb(0, 0, 0);
+ 
+  
+}
+
+#nombreDiv{
+    
+    width: 100%;
+    background-color: #ffffff;
+    height: 100%;
+  
+}
+
+
+/*Arreglar el -14px*/
+.fa-trash{
+    justify-content: center;
+  text-align: center;
+  justify-items: center;
+}
+
+.btn.btn-primary.actualizar{
+    background-color: green;
+}
+
+.btn.btn-primary.eliminar{
+ 
+    background-color: rgb(129, 11, 11);
+}
+.btn.btn-primary.modificar.usuarios{
+ 
+    background-color: rgb(224 77 16);
+}
+.btn.btn-primary.modificar.usuarios:hover{
+    background-color: rgb(255, 164, 45);
+}
+
+.btn.btn-primary.eliminar:hover {
+    background-color: rgb(255, 0, 0);;
+}
+
+.btn.btn-primary.actualizar:hover{
+    background-color: rgb(31, 168, 31);
+}
+
+.btn.btn-primary.modificar:hover{
+    background-color: rgb(0, 132, 255);
+}
+
+.input-name{
+    text-align: center;
+}
+

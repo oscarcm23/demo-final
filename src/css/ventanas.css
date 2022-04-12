@@ -1,0 +1,168 @@
+/*============== Ventanas Transparentes ==============
+REGISTRO USUARIOS
+REGISTRO CLIENTES
+REGISTRICO COLABORADORES
+LOGIN
+*/
+
+/*============== POSICION CENTRADA ==============*/
+.flex {
+	align-items: center;
+	display: flex;
+	justify-content: center;
+}
+/*============== ALTURA ==============*/
+.scene {
+	
+	position: relative;
+}
+
+   .contenido-main-registro {	
+      position: absolute;
+      margin-left: 60px;
+      width: calc(100% - 60px) ;
+       top: 15%;
+  }
+
+  .contenido-main-registro.login {	
+
+	margin-left:0px;
+}
+
+
+  .contenido-main-registro.contraseña{
+    top: 35%;
+  }
+
+
+  .scene.flex.login{
+	  margin-top: 10%;
+  }
+
+
+/*============== Color Placeholder ==============*/
+::-webkit-input-placeholder {
+    color: rgba(0, 0, 0, 0.555);
+}
+
+/*============== Tamaño y Color de Ventanas  ==============*/
+.card-body{
+	border: 1px solid rgba(0, 0, 0, 0.137);
+	border-radius: 15px;
+	color: rgb(88, 88, 88);
+	max-width: 450px;
+	overflow: hidden;
+	padding: 0px 30px 10px 30px;
+	position: relative;
+	text-align: center;
+	z-index: 1;
+	background-color:  #00000009;
+	backdrop-filter: blur(6px);
+}
+
+/*============== Estilo Input ==============*/
+.card-input {
+	background: rgba(255, 255, 255, 0.822);
+	border: 1px solid rgba(0, 0, 0, 0.363);
+	border-radius: 3px;
+	box-sizing: border-box;
+	color: #000000;
+	display: block;
+	font-size: 1rem;
+	letter-spacing: 0.15rem;
+	padding: 10px;
+	width: 100%;
+	margin-bottom: 15px;
+}
+
+.card-input:focus, .card-input:active {
+
+	border: 1px solid rgba(255, 255, 255, 0.75);
+	outline: none;
+
+	background-color: #ffffff;
+}
+
+
+
+
+
+/*============== OPTIONS VENTANA ==============*/
+#rol:hover{
+	background-color: #38153E;
+	color: white;
+	}
+	
+select#rol{
+	background-color: #0b9e1e;
+}
+
+
+/*============== BOTONES VENTANA ==============*/
+.card-button{
+	background-color: #0b9e1e;
+	color: rgb(255, 255, 255);
+	border: none;
+	border-radius: 3px;
+	margin: 15px auto 0 auto;
+	padding: 8px 20px;
+	
+  }
+  .card-button:hover{
+   
+	background-color: #38153E;
+color: white;
+  }
+
+ 
+
+.card-body h2{
+	color: #000000;
+
+font-weight: 400;
+}
+
+
+
+
+            
+/*=========================MEDIA QUERIES PANTALLA ANCHA================================*/
+
+@media (max-width: 1200px) {
+
+}
+
+/*=========================MEDIA QUERIES PANTALLA SM================================*/
+
+
+@media (max-width: 960px) {
+
+
+	.scene.flex.login{
+		margin-top: 40%;
+	}
+	
+
+}
+
+/*=========================MEDIA QUERIES PANTALLA EXTRA-SM================================*/
+
+@media (max-width: 768px) {
+
+	.scene.flex.login{
+		margin-top: 40%;
+	}
+	
+
+
+}
+
+/*=========================MEDIA QUERIES PANTALLA EXTRA-SM================================*/
+@media (max-width: 576px) {
+
+	.scene.flex.login{
+		margin-top: 40%;
+	}
+	
+  
+}

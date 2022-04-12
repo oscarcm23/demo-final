@@ -1,0 +1,68 @@
+
+    .registro{
+      position:relative;  
+      height:65%;
+      width:900px;
+      margin-left:auto;
+      margin-right:auto;
+      margin-top: 5%;
+  
+    }
+
+.btn.btn-primary.Resetear{
+background-color: rgb(15, 36, 65);
+}
+
+
+.btn.btn-primary.Resetear:hover{
+  background-color: rgb(3, 78, 182);
+  }
+  
+
+  .btn.btn-primary.Mod{
+    background-color: rgb(25, 63, 15);
+    }
+    
+    
+    .btn.btn-primary.Mod:hover{
+      background-color: rgb(26, 182, 34);
+      }
+      
+        
+    
+  
+
+      .btn.btn-primary.Ver{
+        background-color: rgb(63, 15, 21);
+        }
+        
+        
+        .btn.btn-primary.Ver:hover{
+          background-color: rgb(182, 26, 122);
+          }
+          
+/* 
+Buscardor Inteligente  Colores*/
+  
+div.selectCliente{
+
+  content: '>';
+  background-color: rgba(40, 0, 105, 0.842);
+  color: aliceblue;
+  border-radius: 45px;
+  -webkit-border-radius: 45px;
+  -moz-border-radius: 45px;
+  -ms-border-radius: 45px;
+  -o-border-radius: 45px;
+}
+
+  
+div.selectCliente:hover{
+  background-color: rgb(6, 187, 0);
+  color: rgb(255, 255, 255);
+  border-radius: 45px;
+  -webkit-border-radius: 45px;
+  -moz-border-radius: 45px;
+  -ms-border-radius: 45px;
+  -o-border-radius: 45px;
+}
